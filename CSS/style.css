@@ -236,7 +236,9 @@ a:hover{
     color: #f18930;
 }
 
-
+.body{
+    background: #f89c4b;
+}
 .acc{
     background: rgb(200, 95, 56);
     margin-top: 5px;
@@ -325,3 +327,92 @@ a:hover{
     color: white;
 }
 
+.payments{
+    background: rgb(200, 95, 56);
+    margin-top: 5px;
+    width: 100%;
+    list-style-type: none;
+}
+.payments a:hover{
+    color: black;
+}
+.payments div{
+    border-bottom: white solid 1px;
+} 
+.paymets li{
+    display: inline-block;
+}
+.moneyTransfer li a{
+    color: white;
+}
+.billPay li a{
+    color: white;
+}
+.creditCard li a{
+    color: white;
+}
+.e-wallets li a{
+    color: white;
+}
+.tax li a{
+    color: white;
+}
+
+
+.cards{
+    background: rgb(200, 95, 56);
+    margin-top: 5px;
+    width: 100%;
+    list-style-type: none;
+}
+.cards a:hover{
+    color: black;
+}
+.cards div{
+    border-bottom: white solid 1px;
+} 
+.cards li{
+    display: inline-block;
+}
+.credit li a{
+    color: white;
+}
+.debit li a{
+    color: white;
+}
+.commercial li a{
+    color: white;
+}
+.forex li a{
+    color: white;
+}
+
+
+
+.insurance{
+    background: rgb(200, 95, 56);
+    margin-top: 5px;
+    width: 100%;
+    list-style-type: none;
+}
+.insurance a:hover{
+    color: black;
+}
+.insurance div{
+    border-bottom: white solid 1px;
+} 
+.insurance li{
+    display: inline-block;
+}
+.life li a{
+    color: white;
+}
+.health li a{
+    color: white;
+}
+.vehicle li a{
+    color: white;
+}
+.travel li a{
+    color: white;
+}
