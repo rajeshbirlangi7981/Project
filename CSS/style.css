@@ -1,0 +1,327 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    /* list-style: none; */
+    font-family: Arial;
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-shadow:0px 2px 10px 0px #ceb7b7;
+}
+.headerLeft{
+    width: 47%;
+    margin-left: 2%;
+    margin-right: 1%;
+    align-items: center;
+    /* border: 1px solid blue; */
+    justify-content: space-between;
+    display: flex;
+}
+.menu>ul{
+    display: flex;
+    list-style-type:none;
+    /* align-items: center; */
+    gap: 39px;
+}
+.menu>ul>li a{
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+.menu>ul>li a:last-child{
+    margin-right:10px ;
+}
+.headerRight{
+    width: 46%;
+    display: flex;
+    margin-right: 1%;
+    align-items: center;
+    justify-content: space-between;
+}
+.headerRight form{
+    width:70%;
+    margin-bottom: 2px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+}
+.headerRight form button{
+    width: 10%;
+    height: 25px;
+    background: transparent;
+    border: none;
+}
+.headerRight form input{
+    width: 70%;
+    height: 25px;
+    border: none;
+}
+/* .login{
+    border: black solid;
+} */
+.profile ul{
+    display: flex;
+    gap: 30px;  
+    /* justify-content: center; */
+}
+.profile ul li{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 14px;
+    color: black;
+    font-weight: lighter;
+    justify-content: center;
+}
+.profile ul li a{
+    color: black;
+    font-weight: bold;
+}
+.profile ul li i{
+    margin-top: 4px;
+}
+.homeBanner{
+    width: 100%;
+    margin-top:20px;
+   position: relative;
+   display: inline-block;
+    
+}
+.homeBanner img{
+    width: 100%;
+    height: auto;
+}
+.banner_overLayContent{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    background-color: rgba(0, 0, 0, 0.0);
+    color: white;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.overLayContent_Heading{
+    text-align: center;
+    margin-top: -50px;
+}
+.banner_overLayContent ul img{
+    width: 50px;
+    height: 50px;
+    /* background-color: aqua; */
+}
+/* .footer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    box-shadow:10px 0px 0px 0px #ceb7b7 ;
+}
+.footerLeft{
+    width: 47%;
+    padding: 20px;
+    color: white;
+    margin-left: 2%;
+    margin-right: 1%;
+    align-items: start;
+    border: 1px solid blue;
+    justify-content: space-between;
+    display: flex; 
+}
+#socialMedia{
+    display: block;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.socialMediaIcons ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    gap: 42px;
+    display: flex;  
+}
+.socialMediaIcons ul li{
+    margin-right: 15px;
+}
+.footerRight{
+    width: 46%;
+    display: flex;
+    margin-right: 1%;
+    align-items: center;
+    justify-content: space-between;
+}
+ */
+footer{
+    background: #343434;
+    padding-left: 50px;  
+}
+.container{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.footer-content{
+    width: 33.3%;
+    color: white;
+    margin-top: 35px;
+}
+h3{
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.footer-content p{
+    width: 190px;
+    margin: auto;
+    padding: 5px;
+}
+.footer-content ul{
+    text-align: center;
+}
+.list{
+    padding: 0;
+    color: white;
+}
+.list li{
+    width: auto;
+    text-align: center;
+    list-style-type: none;
+    padding: 5px;
+    color: white;
+    position: relative;
+}
+.list li a{
+    color: white;
+}
+.list li::before{
+    content: '';
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background:#f18930;
+    transition: duration 0.5s; 
+}
+.list li:hover::before{
+    width: 70px;
+}
+.social-icons{
+    text-align: center;
+    padding: 0;
+}
+.social-icons li{
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+.social-icons i{
+    color: white;
+    font-size: 25px;
+}
+a:hover{
+    color: #f18930;
+}
+.social-icons i:hover{
+    color: #f18930;
+}
+
+
+.acc{
+    background: rgb(200, 95, 56);
+    margin-top: 5px;
+    width: 100%;
+    list-style-type: none;
+}
+.acc a:hover{
+    color: black;
+}
+.acc div{
+    border-bottom: white solid 1px;
+} 
+.acc li{
+    display: inline-block;
+}
+.savingsAcc li a{
+    color: white;
+}
+.currentAcc li a{
+    color: white;
+}
+.salaryAcc li a{
+    color: white;
+}
+
+
+
+.deposits{
+    background: rgb(200, 95, 56);
+    margin-top: 5px;
+    width: 100%;
+    list-style-type: none;
+}
+.deposits a:hover{
+    color: black;
+}
+.deposits div{
+    border-bottom: white solid 1px;
+} 
+.deposits li{
+    display: inline-block;
+}
+.fixed li a{
+    color: white;
+}
+.recurring li a{
+    color: white;
+}
+.iwish li a{
+    color: white;
+}
+
+
+
+.loan{
+    background: rgb(200, 95, 56);
+    margin-top: 5px;
+    width: 100%;
+    list-style-type: none;
+}
+.loan a:hover{
+    color: black;
+}
+.loan div{
+    border-bottom: white solid 1px;
+} 
+.loan li{
+    display: inline-block;
+}
+.personalLoan li a{
+    color: white;
+}
+.homeLoan li a{
+    color: white;
+}
+.carLoan li a{
+    color: white;
+}
+.twoWheeler li a{
+    color: white;
+}
+.educationLoan li a{
+    color: white;
+}
+.goldLoan li a{
+    color: white;
+}
+
